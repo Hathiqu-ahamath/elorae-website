@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #775a19;
+  --color-primary-container: #d4ad65;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #1a1c1a;
+  --color-on-surface-variant: #4d4635;
+  --color-surface: #faf9f6;
+  --color-surface-container: #efeeeb;
+  --color-surface-container-low: #f4f3f1;
+  --color-surface-container-lowest: #ffffff;
+  --color-secondary-container: #f2dede;
+  --color-on-secondary-container: #706161;
+  --color-outline: #7f7663;
+  --color-outline-variant: #d0c5af;
+  --color-primary-fixed: #ffdea5;
+  --color-primary-fixed-dim: #e9c176;
+  
+  --font-family-headline: "Noto Serif", serif;
+  --font-family-body: "Manrope", sans-serif;
+  --font-family-label: "Manrope", sans-serif;
+  
+  --shadow-editorial: 0 12px 32px rgba(119, 90, 25, 0.06);
+  --shadow-gold: 0 12px 32px rgba(119, 90, 25, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  background-color: #faf9f6;
+  color: #1a1c1a;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.liquid-gold-cta {
+  background: linear-gradient(135deg, #775a19 0%, #d4ad65 100%);
+}
+
+.liquid-gold-bg {
+  background: linear-gradient(135deg, #775a19 0%, #d4ad65 100%);
+}
+
+.veil-overlay {
+  background: rgba(250, 249, 246, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+.shadow-editorial {
+  box-shadow: 0 12px 32px rgba(119, 90, 25, 0.06);
+}
+
+.shadow-gold {
+  box-shadow: 0 12px 32px rgba(119, 90, 25, 0.2);
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border-color: #775a19 !important;
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-headline {
+  font-family: 'Noto Serif', serif;
+}
+
+.font-body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-label {
+  font-family: 'Manrope', sans-serif;
+}
+
+.text-primary {
+  color: #775a19;
+}
+
+.text-primary-container {
+  color: #d4ad65;
+}
+
+.bg-primary {
+  background-color: #775a19;
+}
+
+.bg-primary-container {
+  background-color: #d4ad65;
+}
+
+.bg-surface {
+  background-color: #faf9f6;
+}
+
+.bg-surface-container {
+  background-color: #efeeeb;
+}
+
+.bg-surface-container-low {
+  background-color: #f4f3f1;
+}
+
+.bg-surface-container-lowest {
+  background-color: #ffffff;
+}
+
+.bg-secondary-container {
+  background-color: #f2dede;
+}
+
+.text-on-primary {
+  color: #ffffff;
+}
+
+.text-on-surface {
+  color: #1a1c1a;
+}
+
+.text-on-surface-variant {
+  color: #4d4635;
+}
+
+.text-outline {
+  color: #7f7663;
+}
+
+.text-outline-variant {
+  color: #d0c5af;
+}
+
+.text-on-secondary-container {
+  color: #706161;
+}
+
+.border-outline {
+  border-color: #7f7663;
+}
+
+.border-outline-variant {
+  border-color: #d0c5af;
+}
+
+.border-primary {
+  border-color: #775a19;
+}
+
+.border-primary-container {
+  border-color: #d4ad65;
+}
