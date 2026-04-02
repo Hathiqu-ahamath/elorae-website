@@ -71,7 +71,7 @@ const About = () => {
               <img 
                 alt="Tailoring process" 
                 className="rounded-lg shadow-editorial w-full aspect-[3/4] object-cover mt-8" 
-                src="/images/1.jpeg" 
+                src="images/1.jpeg" 
               />
             </div>
           </div>
